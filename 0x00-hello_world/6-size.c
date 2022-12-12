@@ -2,20 +2,19 @@
 /**
  * main - Entry point
  *
- * Make the variables
+ * Sizeof: Make the size of function
  *
- * Return: Always 0 (Success)
+ * return: Always 0 is success
  */
 int main(void)
 {
 	int a;
-	char b;
+	float b;
 	double c;
-	float f;
-
-	printf("Size of int is \n", sizeof(i));
-	printf("Size of char is \n",sizeof(b));
-	printf("Size of double is \n", sizeof(c));
-	printf("Size of float is \n", sizeof(f);
+	char d;
+	printf("Size of int is : %lu \n", sizeof(a));
+	printf("Size of float is : %lu \n", sizeof(b));
+	printf("Size of double is : %lu \n", sizeof(c));
+	printf("Size of char is : %lu \n", sizeof(d));
 	return (0);
 }
