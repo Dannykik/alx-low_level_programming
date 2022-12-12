@@ -10,6 +10,7 @@ int main(void)
 	float b;
 	double c;
 	char d;
+
 	printf("Size of int is : %lu \n", sizeof(a));
 	printf("Size of float is : %lu \n", sizeof(b));
 	printf("Size of double is : %lu \n", sizeof(c));
