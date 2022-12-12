@@ -13,9 +13,9 @@ int main(void)
 	double c;
 	float f;
 
-	printf("Size of int is %lu \n", (unsigned long)sizeof(i));
-	printf("Size of char is %lu \n",(unsigned long)sizeof(b));
-	printf("Size of double %lu is \n", (unsigned long)sizeof(c));
-	printf("Size of float %lu is \n", (unsigned long)sizeof(f);
+	printf("Size of int is \n", sizeof(i));
+	printf("Size of char is \n",sizeof(b));
+	printf("Size of double is \n", sizeof(c));
+	printf("Size of float is \n", sizeof(f);
 	return (0);
 }
