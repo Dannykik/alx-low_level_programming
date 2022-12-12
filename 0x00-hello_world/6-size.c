@@ -2,9 +2,7 @@
 /**
  * main - Entry point
  *
- * Sizeof: Make the size of function
- *
- * return: Always 0 is success
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
