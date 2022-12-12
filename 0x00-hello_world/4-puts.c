@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
- * main Entry point
+ * main - Entry point
  *
- * return: return puts fonction 
+ * puts: print Programming is like building a multilingual puzzle
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
