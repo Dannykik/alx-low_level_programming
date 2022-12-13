@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - Entry point
+ * print_alphabet_x10 - Entry point
  *
  * Return: None.
  */
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(i);
+			_putchar("%c \n", i);
 		}
 	}
 	_putchar('\n');
