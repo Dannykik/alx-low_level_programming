@@ -2,6 +2,8 @@
 /**
  * _islower - Enter point
  *
+ * c: letter to being tested
+ *
  * Return: Alwys 0 (Success)
  */
 int _islower(int c)
