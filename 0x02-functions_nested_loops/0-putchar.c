@@ -1,17 +1,18 @@
 #include "main.h"
 /**
- * main - prints _putchar, fllowd by a new linees
+ * main - Enter point
+ *
  * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-	char abe[] = "_putchar";
+	char abc[] = "_putchar";
 
-	int c;
+	int i;
 
-	for (c = 0; c < 8; c++)
+	for (i = 0; i < 8; i++)
 	{
-		_putchar(abe[c]);
+		_putchar(abc[i]);
 	}
 	_putchar('\n');
 	return (0);
