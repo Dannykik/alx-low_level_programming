@@ -2,7 +2,7 @@
 /**
  * _islower - Enter point
  *
- * c: letter to being tested
+ * @c: letter to being tested
  *
  * Return: Alwys 0 (Success)
  */
