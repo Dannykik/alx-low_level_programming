@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * main - check the code
  *
@@ -7,7 +6,13 @@
  */
 int main(void)
 {
-    _putchar("_putchar");
-    _putchar("\n");
-    return (0);
+	char abc[] = "_putchar";
+	int i;
+
+	for (i = 0 ; i < 8, i++)
+	{
+		_putchar(abc[i]);
+	}
+	_putchar("\n");
+	return (0);
 }
