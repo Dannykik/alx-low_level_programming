@@ -2,7 +2,7 @@
 /**
  * print_sign - Enter point
  *
- * @c: letter to being tested
+ * @n: letter to being tested
  *
  * Return: Alwys 0 (Success)
  */
