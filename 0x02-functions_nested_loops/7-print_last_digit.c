@@ -6,7 +6,7 @@
  *
  * Return: Alwys 0 (Success)
  */
-int print_last_digit(int i);
+int print_last_digit(int i)
 {
 	int n;
 
