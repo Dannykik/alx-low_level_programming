@@ -1,24 +1,39 @@
 #include "main.h"
 /**
- * print_last_digit - Enter point
- *
- * @i: letter to being tested
- *
- * Return: Alwys 0 (Success)
+ * jack_bauer - Entry point
  */
-int print_last_digit(int i)
+void jack_bauer(void)
 {
-	int n;
+	int i;
+	int a, b, c, d;
 
-	n = i % 10;
-	if (i > 0)
+	for (i = 0; i < 1440; i++)
 	{
-		return (n);
+		_putchar(a + '0');
+		_putchar(b + '0');
+		_putchar(':');
+		_putchar(c + '0');
+		_putchar(d + '0');
+		_putchar('\n');
+		if (d > 9)
+		{
+			d = 0;
+			d++;
+		}
+		if (c > 5)
+		{
+			c = 0;
+			c++;
+		}
+		if (b > 3)
+		{
+			b = 0;
+			b++;
+		}
+		if (a > 2)
+		{
+			a = 0;
+			a++;
+		}
 	}
-	else
-	{
-		n = -n;
-		return (n);
-	}
-	return (0);
 }
