@@ -1,25 +1,23 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * print_last_digit - Enter point
- *
- * @i: letter to being tested
- *
- * Return: Alwys 0 (Success)
+ * print_last_digit - print the last digit of a number
+ * @n: int type number
+ * Return: return value of last digit
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
-	int n;
+	int nv;
 
-	if (i < 0)
+	if (n < 0)
 	{
-		i = -i;
-		n = i % 10;
-		_putchar(n + '0');
-		return (n);
+		nv = -1 * (n % 10);
+		_putchar(nv + '0');
+		return (nv);
 	}
-	else	
+	else
 	{
-                n = i % 10;
-		_putchar(n + '0');                                                return (n);
+		nv = n % 10;
+		_putchar(nv + '0');
+		return (nv);
 	}
 }
