@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * more_numbers - check the code.
+ * more_numbers - Entry point.
  */
 void more_numbers(void)
 {
