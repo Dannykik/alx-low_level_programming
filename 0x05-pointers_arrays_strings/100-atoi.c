@@ -2,7 +2,7 @@
 /**
  * _atoi - Thr function to convert a string into an integer.
  *
- * @s:the string 
+ * @s:the string
  *
  * Return: integer.
  */
