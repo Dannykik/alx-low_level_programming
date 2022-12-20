@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * print_array - print an array.
+ * print_array - The function print an array.
+ * 
  * @a: the array to print.
- * @n
+ * 
+ * @n: a variable of type int
  */
 void print_array(int *a, int n)
 {
