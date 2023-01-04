@@ -4,6 +4,7 @@
  * @dest: The pointer variable
  * @src: The second pointer
  * @n: The integer that control a byte
+ * Return: Always 0 is succeed
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {

@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * _strspn - Main function
+ * _strspn - funcrion root
  * @s: pointer for checking
  * @accept: pointer to add
+ * Return: Always 0 is succeed
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -11,7 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 
 	while (*s)
 	{
-		for (j = 0; accept[j]; j++)									
+		for (j = 0; accept[j]; j++)
 		{
 			if (accept[j] == *s)
 			{

@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _memset - Our function
+ * _memset - The function root
  * @s: first char variable
  * @b: second char
  * @n: An integer
