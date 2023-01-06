@@ -1,12 +1,12 @@
 #include "main.h"
 /*
- * _memset - The function root
+ * _memset - function root
  * @s: first char variable
  * @b: second char
  * @n: An integer
  * Return: Always 0 is succed
  */
-char *_memset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n) /*function root*/
 {
 	unsigned int i;
 
