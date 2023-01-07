@@ -1,6 +1,6 @@
 #include  <stdlib.h>
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  *
  * @argc: count number that argument contain
@@ -11,6 +11,6 @@
  */
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
-	printf ("%s", argv[0]);
+	printf("%s", argv[0]);
 	return (0);
 }
