@@ -1,12 +1,9 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * _calloc - function that allocates memory for an array, using 
- *
+ * _calloc - function that allocates memory for an array
  * @nmemb: first integer
- *
  * @size: second integer
- *
  * Return: void
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
